@@ -1,0 +1,13 @@
+server:
+  port: 9002
+
+spring:
+  application:
+    #实例名
+    name: consumer-service-nacos
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        username: nacos
+        password: nacos
