@@ -12,7 +12,7 @@ public class WebGisController {
     @Resource
     private RestTemplate restTemplate;
 
-    private static final String URL = "http://provider-service-rest/geocode";
+    private static final String URL = "http://provider-service-nacos/geocode";
 
     @RequestMapping
     public Object list() {
@@ -37,8 +37,8 @@ public class WebGisController {
     }
 
     @GetMapping("{id}")
-    public Object selectId(@PathVariable Integer id) {
-        return restTemplate.getForObject(URL + "/" + id, Object.class);
+    public String selectId(@PathVariable Integer id) {
+        return restTemplate.getForObject(URL + "/" + id, String.class);
     }
 
     @PutMapping

@@ -15,6 +15,7 @@ spring:
         server-addr: localhost:8848
         username: nacos
         password: nacos
+        ephemeral: false
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
