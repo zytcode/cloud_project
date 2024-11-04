@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="763f3b9f-c539-41c4-b067-f01dd5f55aa4" name="更改" comment="1">
-      <change afterPath="$PROJECT_DIR$/consumer_nacos_9002/src/main/java/com/zytcode/controller/DiscoveryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_nacos_9002/src/main/java/com/zytcode/controller/WebGisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_nacos_9002/src/main/java/com/zytcode/controller/WebGisController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider_nacos_8002/src/main/java/com/zytcode/controller/GeoCodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider_nacos_8002/src/main/java/com/zytcode/controller/GeoCodeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider_nacos_8002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider_nacos_8002/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,6 +227,7 @@
       <workItem from="1730536064369" duration="12806000" />
       <workItem from="1730620101300" duration="14617000" />
       <workItem from="1730708178584" duration="1659000" />
+      <workItem from="1730710969037" duration="735000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -272,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730626562757</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1">
+      <option name="closed" value="true" />
+      <created>1730711197686</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730711197686</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
