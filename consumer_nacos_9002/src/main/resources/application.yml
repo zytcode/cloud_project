@@ -8,6 +8,12 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: localhost:8848
+        server-addr: localhost:8858,localhost:8868,localhost:8878
         username: nacos
         password: nacos
+        ephemeral: false
+        namespace: 9abee825-f326-4a7e-a182-b1a547e9de74
+        group: dev
+    loadbalancer:
+      nacos:
+        enabled: true
